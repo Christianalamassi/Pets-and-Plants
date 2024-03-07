@@ -343,23 +343,37 @@ footer {
 
   /*media queries to medium screen size from 600px wide and down*/
   @media screen and (max-width:600px) {
-
     header {
-      line-height: 25px;
+      padding: 4px;
+      line-height: 15px;
     }
 
     #logo {
-      font-size: large;
-      color: #6fc406;
+      display: flex;
+      font-size: medium;
+      width: 8rem;
     }
 
+    #logo span {
+      font-size: large;
+    }
 
     nav {
-      font-size: 90%;
-      text-align: center;
       display: flex;
+      justify-content: space-around;
+      width: 50%;
+      font-size: 100%;
+      padding: auto 5px;
     }
 
+    nav ul {
+      display: flex;
+      flex-direction: row-reverse;
+      width: max-content;
+      float: display;
+      padding: 2px;
+
+    }
 
     #main-head {
       height: 500px;
@@ -375,6 +389,8 @@ footer {
       display: block;
       background: url(../images/main-pic.jpg) no-repeat center;
     }
+
+
 
     /*the text inside the main photo*/
     h1 span {
