@@ -463,11 +463,44 @@ footer {
     line-height: 5vh;
   }
 
-  .con{
+  .con {
     font-size: small;
   }
 }
 
 /*media queries to medium screen size from 360px wide and down*/
-@media screen and (max-width:360px)
+@media screen and (max-width:370px) {
+  #main-head {
+    width: 360px;
+  }
+
+  #opining {
+    width: 360px;
+  }
+
+  #pet {
+    width: 360px;
+  }
+
+  #plants {
+    width: 360px;
+  }
+
+  #coffee {
+    width: 360px;
+  }
+
+  #sign-up {
+    width: 360px;
+    margin: 0px;
+  }
+
+  #contact {
+    width: 360px;
+  }
+
+  footer {
+    width: 360px;
+  }
+}
 }
