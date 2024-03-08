@@ -38,6 +38,11 @@ nav {
   font-size: 110%;
 }
 
+/*hide the navbar*/
+#navbar {
+  display: none;
+}
+
 nav li {
   float: right;
   list-style-type: none;
@@ -344,14 +349,27 @@ footer {
   header {
     line-height: 5vh;
     padding: 0 1rem;
-    display: flex;
     justify-content: space-between;
+    width: fit-content;
+  }
+
+  /*navbar styling*/
+  #navbar:checked~nav {
+    display: block;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  .nav-bar {
+    color: #ffffff;
+    font-size: medium;
   }
 
   #logo {
-    display: flex;
     font-size: medium;
-    width: 8rem;
+    width: 50%;
   }
 
   #logo span {
@@ -370,6 +388,7 @@ footer {
     left: 0;
     padding: 0 1rem;
     display: none;
+    top: 100%;
   }
 
   nav ul {
@@ -381,42 +400,19 @@ footer {
 
   }
 
-  #main-head {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-  }
-
-
   #main-img {
-    width: 100%;
     height: 500x;
     display: block;
-    background: url(../images/main-pic.jpg) no-repeat center;
-  }
-
-
-
-  /*the text inside the main photo*/
-  h1 span {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-    color: #ffffff;
-    font-style: italic;
   }
 
   #main-text {
-    background-color: rgba(255, 230, 58, .4);
-    color: #000000;
-    width: 340px;
+    width: 60%;
     height: 150px;
-    font-size: 130%;
+    font-size: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 10px;
-    padding-top: 5px;
-    position: absolute;
-    top: 160px;
+    padding-left: 0px;
+    padding-top: 0px;
+    top: 100px;
   }
 
   /*what the page content*/
