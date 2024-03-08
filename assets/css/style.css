@@ -14,7 +14,7 @@ header {
   background-color: black;
   line-height: 55px;
   position: fixed;
-  z-index: 3;
+  z-index: 99;
   background-color: #000000;
   width: 100%;
   display: flex;
@@ -88,7 +88,7 @@ h2 span {
   padding-top: 5px;
   position: absolute;
   top: 160px;
-  line-height:6vh;
+  line-height: 6vh;
 }
 
 /*what the page content*/
@@ -342,8 +342,10 @@ footer {
 /*media queries to medium screen size from 600px wide and down*/
 @media screen and (max-width:600px) {
   header {
-    padding: 4px;
-    line-height: 15px;
+    line-height: 5vh;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
   }
 
   #logo {
@@ -356,12 +358,18 @@ footer {
     font-size: large;
   }
 
+  nav li {
+    margin-bottom: 1rem;
+  }
+
   nav {
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    font-size: 100%;
-    padding: auto 5px;
+    font-size: 110%;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
   }
 
   nav ul {
