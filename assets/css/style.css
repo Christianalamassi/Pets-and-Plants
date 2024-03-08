@@ -13,9 +13,6 @@
 header {
   background-color: black;
   line-height: 55px;
-}
-
-#the-head {
   position: fixed;
   z-index: 3;
   background-color: #000000;
@@ -24,7 +21,6 @@ header {
 }
 
 /* logo style*/
-
 #logo {
   color: #6fc406;
   font-weight: 700px;
@@ -74,7 +70,7 @@ nav a:hover {
 }
 
 /*the text inside the main photo*/
-h1 span {
+h2 span {
   font-family: Arial, Helvetica, sans-serif;
   font-size: xx-large;
   color: #ffffff;
@@ -84,7 +80,7 @@ h1 span {
 #main-text {
   background-color: rgba(255, 230, 58, .4);
   color: #000000;
-  width: 340px;
+  width: 25%;
   height: 150px;
   font-size: 130%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -92,6 +88,7 @@ h1 span {
   padding-top: 5px;
   position: absolute;
   top: 160px;
+  line-height:6vh;
 }
 
 /*what the page content*/
@@ -340,98 +337,99 @@ footer {
     height: 600px;
     display: block;
   }
+}
 
-  /*media queries to medium screen size from 600px wide and down*/
-  @media screen and (max-width:600px) {
-    header {
-      padding: 4px;
-      line-height: 15px;
-    }
+/*media queries to medium screen size from 600px wide and down*/
+@media screen and (max-width:600px) {
+  header {
+    padding: 4px;
+    line-height: 15px;
+  }
 
-    #logo {
-      display: flex;
-      font-size: medium;
-      width: 8rem;
-    }
+  #logo {
+    display: flex;
+    font-size: medium;
+    width: 8rem;
+  }
 
-    #logo span {
-      font-size: large;
-    }
+  #logo span {
+    font-size: large;
+  }
 
-    nav {
-      display: flex;
-      justify-content: space-around;
-      width: 50%;
-      font-size: 100%;
-      padding: auto 5px;
-    }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 100%;
+    padding: auto 5px;
+  }
 
-    nav ul {
-      display: flex;
-      flex-direction: row-reverse;
-      width: max-content;
-      float: display;
-      padding: 2px;
-
-    }
-
-    #main-head {
-      height: 500px;
-      width: 100%;
-      overflow: hidden;
-      position: relative;
-    }
-
-
-    #main-img {
-      width: 100%;
-      height: 500x;
-      display: block;
-      background: url(../images/main-pic.jpg) no-repeat center;
-    }
-
-
-
-    /*the text inside the main photo*/
-    h1 span {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: xx-large;
-      color: #ffffff;
-      font-style: italic;
-    }
-
-    #main-text {
-      background-color: rgba(255, 230, 58, .4);
-      color: #000000;
-      width: 340px;
-      height: 150px;
-      font-size: 130%;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      padding-left: 10px;
-      padding-top: 5px;
-      position: absolute;
-      top: 160px;
-    }
-
-    /*what the page content*/
-
-    main {
-      width: 100%;
-      top: 412px;
-    }
-
-    h2 {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      margin-left: 10px;
-      font-weight: 500px;
-      color: brown;
-      font-size: 80px;
-    }
-
-    h3 {
-      color: #ffffff;
-      font-size: xx-large;
-    }
+  nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    width: max-content;
+    float: display;
+    padding: 2px;
 
   }
+
+  #main-head {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+  #main-img {
+    width: 100%;
+    height: 500x;
+    display: block;
+    background: url(../images/main-pic.jpg) no-repeat center;
+  }
+
+
+
+  /*the text inside the main photo*/
+  h1 span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: #ffffff;
+    font-style: italic;
+  }
+
+  #main-text {
+    background-color: rgba(255, 230, 58, .4);
+    color: #000000;
+    width: 340px;
+    height: 150px;
+    font-size: 130%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    position: absolute;
+    top: 160px;
+  }
+
+  /*what the page content*/
+
+  main {
+    width: 100%;
+    top: 412px;
+  }
+
+  h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    font-weight: 500px;
+    color: brown;
+    font-size: 80px;
+  }
+
+  h3 {
+    color: #ffffff;
+    font-size: xx-large;
+  }
+
+}
 }
