@@ -484,7 +484,7 @@ footer {
 @media only screen and (max-width:370px) {
 
   body {
-    width: 370px;
+    width: 100%;
   }
 
   header {
