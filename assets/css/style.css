@@ -481,14 +481,18 @@ footer {
 }
 
 /*media queries to medium screen size from 360px wide and down*/
-@media screen and (max-width:370px) {
+@media only screen and (max-width:370px) {
 
   body {
     width: 370px;
   }
 
+  header {
+    width: 370px;
+  }
+
   #introduction {
-    width: 370;
+    width: 370px;
   }
 
   #main-head {
@@ -524,5 +528,4 @@ footer {
   footer {
     width: 370px;
   }
-}
 }
