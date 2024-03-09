@@ -317,17 +317,21 @@ footer {
 
 }
 
-/*media queries to medium screen size from 900px wide and down*/
+/*media queries to medium screen size from 980px wide and down*/
 @media screen and (max-width:980px) {
   #main-text {
-    height: 50%;
-    width: 40%;
+    height: 30%;
+    width: 35%;
   }
 }
 
 /*media queries to medium screen size from 900px wide and down*/
 
 @media screen and (max-width:900px) {
+
+  #main-text {
+    height: 37%;
+  }
 
   #opining li {
     font-size: x-large;
