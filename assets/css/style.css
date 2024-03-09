@@ -58,6 +58,18 @@ nav a:hover {
   color: yellow;
 }
 
+/*who we are*/
+#introduction {
+  width: 100%;
+  background-color: rgb(87, 0, 0);
+  font-size: large;
+  color: #ffffff;
+  line-height: 8vh;
+  padding: 0px 10px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
 /*the main image*/
 
 #main-head {
@@ -470,8 +482,13 @@ footer {
 
 /*media queries to medium screen size from 360px wide and down*/
 @media screen and (max-width:370px) {
+
+  body {
+    max-width: 100vw;
+  }
+
   #main-head {
-    width: 400px;
+    width: 100wv;
   }
 
   #opining {
