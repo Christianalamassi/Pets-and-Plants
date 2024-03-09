@@ -98,14 +98,14 @@ h2 span {
   background-color: rgba(255, 230, 58, .4);
   color: #000000;
   width: 25%;
-  height: 40%;
+  height: 30%;
   font-size: 130%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-left: 10px;
   padding-top: 5px;
   position: absolute;
   top: 160px;
-  line-height: 6vh;
+  line-height: 8vh;
 }
 
 /*what the page content*/
