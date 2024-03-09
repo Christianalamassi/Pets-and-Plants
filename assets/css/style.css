@@ -31,10 +31,12 @@ header {
   padding-left: 10px;
 }
 
-span{font-family: Arial, Helvetica, sans-serif;
+span {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: xx-large;
   color: #ffffff;
-  font-style: italic;}
+  font-style: italic;
+}
 
 /*navigation link*/
 nav {
@@ -491,9 +493,13 @@ footer {
 
 /*media queries to medium screen size from 360px wide and down*/
 @media only screen and (max-width:370px) {
-
-  body {
+  [class*="col-"] {
     width: 100%;
+  }
+
+  
+  body {
+    display: ;
   }
 
   header {
