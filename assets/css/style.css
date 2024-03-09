@@ -493,25 +493,51 @@ footer {
 
 /*media queries to medium screen size from 360px wide and down*/
 @media only screen and (max-width:370px) {
-  [class*="col-"] {
-    width: 100%;
-  }
 
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
 
   body {
-    display: 100%;
+    position: relative;
   }
 
+  #pet img {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  #plants img {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  #main-text {
+    height: 50%;
+  }
+
+  #contact {
+    font-size: medium;
+    padding: 0px 10px;
+    display: block;
+  }
+
+  /*
   header {
-    width: 370px;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   #introduction {
-    width: 370px;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   #main-head {
-    width: 370px;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   #opining {
@@ -542,5 +568,5 @@ footer {
 
   footer {
     width: 370px;
-  }
+  }*/
 }
