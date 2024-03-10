@@ -18,7 +18,7 @@
 
 ### Information
 
-#### This page includes the five sections "About Us", "Opening Hours", "Our Pets", "Our Plants" and "Enjoy a drink in our Coffee Shop"
+#### This page includes the five sections "About Us", "Opening Hours", "Our Pets", "Our Plants" and "Enjoy a drink in our Coffee Shop"clea
 #### About Us gives an overview of what the location has to offer to visitors.
 #### Opening Hours informs the user of the times the location is open for visits.
 #### Our Pets gives the user an overview in the form of a gallery of which farm animals he or she can admire there.
