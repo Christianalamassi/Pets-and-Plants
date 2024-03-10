@@ -38,3 +38,16 @@
 
 #### The footer provides links to the farm's social media pages. The links open to a new tab. 
 <img src="assets/images/cpture7.jpg">
+
+## Testing
+
+#### I tested my project in two different bowsers (Chrome and Edge) and the results were satisfying.
+#### I also tested my project on different screen sizes and was content with the results here as well.
+
+## Validator Testing
+
+#### HTML No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
+
+#### CSS No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
+
+
