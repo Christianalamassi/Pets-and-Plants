@@ -23,7 +23,7 @@ header {
 /* logo style*/
 #logo {
   color: #6fc406;
-  font-weight: 700px;
+  font-weight: 700;
   width: 50%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-transform: uppercase;
@@ -125,7 +125,7 @@ main {
 h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 10px;
-  font-weight: 500px;
+  font-weight: 500;
   color: brown;
   font-size: 80px;
 }
@@ -148,7 +148,7 @@ h3 {
 #Opining-time {
   position: absolute;
   top: 0px;
-  left: 10;
+  left: 10px;
   text-align: left;
 }
 
@@ -158,7 +158,7 @@ h3 {
   font-family: sans-serif;
   letter-spacing: 2px;
   list-style-type: none;
-  text-shadow: #b50909;
+  text-shadow: rgb(181, 9, 9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -430,13 +430,12 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     width: max-content;
-    float: display;
     padding: 2px;
 
   }
 
   #main-img {
-    height: 500x;
+    height: 500px;
     display: block;
   }
 
