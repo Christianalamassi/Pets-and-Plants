@@ -102,7 +102,7 @@ h2 span {
 }
 
 #main-text {
-  background-color: rgba(255, 230, 58, .4);
+  background-color: rgba(204, 181, 29, 0.6);
   color: #000000;
   width: 25%;
   height: 30%;
@@ -440,7 +440,7 @@ footer {
 
   #main-text {
     width: 50%;
-    height: 150px;
+    height: 40%;
     font-size: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 0px;
