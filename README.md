@@ -42,12 +42,19 @@
 ## Testing
 
 #### I tested my project in two different bowsers (Chrome and Edge) and the results were satisfying.
-#### I also tested my project on different screen sizes and was content with the results here as well.
+#### I also tested my project on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and was content with the results here as well.
+#### I found three errors in HTML
+##### 1. The address element wasn't allowed as child of element <h3>.
+##### 2. End tag <main> seen, but there were open elements.
+##### 3. Unclosed element <section>.
+<img src="assets/images/capture2.jpg">
 
 ## Validator Testing
 
 #### HTML No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
 
 #### CSS No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
+
+## Deployment
 
 
