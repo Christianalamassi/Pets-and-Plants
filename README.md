@@ -84,5 +84,3 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 
 ### Media
 #### the images where taking from [Pixabay](https://pixabay.com/), [freeimages](https://www.freeimages.com/)
-
-
