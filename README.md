@@ -43,18 +43,46 @@
 
 #### I tested my project in two different bowsers (Chrome and Edge) and the results were satisfying.
 #### I also tested my project on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and was content with the results here as well.
+#### I confirmed the project is easy to use and the nav-bar, the header, sign up and about us are easy to understand for the user. 
+
+## Bugs
 #### I found three errors in HTML
+
 ##### 1. The address element wasn't allowed as child of element <h3>.
+##### <h3> <address></address> </h3>
+
 ##### 2. End tag <main> seen, but there were open elements.
+##### <main> </div> </main>
+
 ##### 3. Unclosed element <section>.
+##### <main> <section id="infos"> </main>
+
 <img src="assets/images/capture2.jpg">
 
 ## Validator Testing
 
-#### HTML No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
+### HTML 
+#### No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
 
-#### CSS No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
+### CSS ####
+No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
+
+### Accessability 
+#### I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools, although the images are a littel bit slower download.
+<img src="assets/images/capture0.jpg">
 
 ## Deployment
+
+### The site was deployed to GitHub pages through the following steps:
+#### In the GitHub repository, navigate to the Settings tab
+#### From the source section drop-down menu, select the Master Branch
+#### Once the master branch has been selected, the page will be automatically refreshed with a 
+#### detailed ribbon display to indicate the successful deployment.
+#### The live link is here [P&P Pets and Plants](https://christianalamassi.github.io/FirstProjectGitpod/)
+
+## Credits
+
+### Media
+#### the images where taking from [Pixabay](https://pixabay.com/), [freeimages](https://www.freeimages.com/)
 
 
