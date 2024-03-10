@@ -1,6 +1,6 @@
 # P&P Pets and Plants
 
-#### P&P is the website of a farm in the outskirts of Berlin, that keeps a variety of farm animals and plants for people to admire and that welcomes people in their coffee shop. The site is aimed for people interested in visiting the farm. Users are able to get an overview of what the location has to offer, how to contact it and where to find it. Users can also subscribe to the farm's newsletter. 
+#### P&P is the website of a farm in the outskirts of Berlin, that keeps a variety of farm animals and plants for people to admire and that welcomes people in their coffee shop. The site is aimed at people interested in visiting the farm. Users can get an overview of what the location has to offer, how to contact it, and where to find it. Users can also subscribe to the farm's newsletter. 
 <img src="assets/images/capture.jpg">
 
 ## Features
@@ -28,7 +28,7 @@
 
 ### Sign Up for our newsletter
 
-#### On this page the user can submit his or her inforamtion in order to subscribe to the farm's newsletter. 
+#### On this page the user can submit his or her information in order to subscribe to the farm's newsletter. 
 <img src="assets/images/capture6.jpg">
 ### Find Us
 
@@ -41,21 +41,21 @@
 
 ## Testing
 
-#### I tested my project in two different bowsers (Chrome and Edge) and the results were satisfying.
+#### I tested my project in two different browsers (Chrome and Edge) and the results were satisfying.
 #### I also tested my project on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and was content with the results here as well.
-#### I confirmed the project is easy to use and the nav-bar, the header, sign up and about us are easy to understand for the user. 
+#### I confirmed the project is easy to use and the nav bar, the header, sign up and about us are easy to understand for the user. 
 
 ## Bugs
 #### I found three errors in HTML
 
-##### 1. The address element wasn't allowed as child of element <h3>.
+##### 1. The address element wasn't allowed as a child of element <h3>.
 ##### <h3> <address></address> </h3>
 
-##### 2. End tag <main> seen, but there were open elements.
+##### 2. End tag <main> was seen, but there were open elements.
 ##### <main> </div> </main>
 
 ##### 3. Unclosed element <section>.
-##### <main> <section id="infos"> </main>
+##### <main> <section id="Infos"> </main>
 
 <img src="assets/images/capture2.jpg">
 
@@ -67,8 +67,8 @@
 ### CSS ####
 No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
 
-### Accessability 
-#### I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools, although the images are a littel bit slower download.
+### Accessibility 
+#### I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools, although the images are a little bit slower to download.
 <img src="assets/images/capture0.jpg">
 
 ## Deployment
