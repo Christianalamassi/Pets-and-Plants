@@ -50,9 +50,9 @@
 
 #### I found three errors in HTML :
 
-##### The address element wasn't allowed as a child of element <h3>.
+##### The address element wasn't allowed as a child of element h3.
 ##### End tag <main> was seen, but there were open elements.
-##### Unclosed element <section>.
+##### Unclosed element section.
 
 <img src="assets/images/capture2.jpg">
 
