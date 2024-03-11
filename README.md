@@ -35,6 +35,7 @@
 ### Find Us
 
 - This page shows the user all of the contact information of the farm and it's location.
+<img src="assets/images/findus.jpg">
 
 ### Footer
 
