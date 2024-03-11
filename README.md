@@ -68,8 +68,9 @@
 ### CSS
 No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-- Accessability 
-- I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools, although the images are a littel bit slower download.
+### Accessability
+
+ I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools, although the images are a littel bit slower download.
 <img src="assets/images/capture0.jpg">
 
 ## Deployment
