@@ -44,12 +44,14 @@
 ## Testing
 
 - I tested my project in two different browsers (Chrome and Edge) and the results were satisfying.
+<img src="assets/images/chanded.jpg">
+
 - I also tested my project on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and was content with the results here as well.
+<img src="assets/images/size.screen.jpg">
+
 - I confirmed the project is easy to use and the nav bar, the header, sign up and about us are easy to understand for the user. 
 
-## Bugs
-
-#### I found three errors in HTML :
+#### I found three errors in HTML, they are fixed :
 
 - The address element wasn't allowed as a child of element h3.
 - End tag <main> was seen, but there were open elements.
@@ -63,7 +65,7 @@
  No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
 
 ### CSS
-No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F)
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristianalamassi.github.io%2FFirstProjectGitpod%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - Accessability 
 - I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools, although the images are a littel bit slower download.
@@ -74,11 +76,12 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 ### The site was deployed to GitHub pages through the following steps:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the main
-- Once the master branch has been selected, the page will be automatically refreshed with a 
+- Once the main has been selected, the page will be automatically refreshed with a 
 - detailed ribbon display to indicate the successful deployment.
 - The live link is here [P&P Pets and Plants](https://christianalamassi.github.io/FirstProjectGitpod/)
 
 ## Credits
 
+
 ### Media
-- the images were taken from [Pixabay](https://pixabay.com/), [freeimages](https://www.freeimages.com/)
+- the images were taken from [Pixabay](https://pixabay.com/), [freeimages](https://www.freeimages.com/) [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
