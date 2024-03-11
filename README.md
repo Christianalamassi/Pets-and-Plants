@@ -46,15 +46,7 @@
 #### I also tested my project on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and was content with the results here as well.
 #### I confirmed the project is easy to use and the nav bar, the header, sign up and about us are easy to understand for the user. 
 
-## Bugs
 
-#### I found three errors in HTML:
-
-##### The address element wasn't allowed as a child of element <h3>.
-##### End tag <main> was seen, but there were open elements.
-##### Unclosed element <section>.
-
-<img src="assets/images/capture2.jpg">
 
 ## Validator Testing
 
