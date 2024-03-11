@@ -30,6 +30,7 @@
 
 #### On this page the user can submit his or her information in order to subscribe to the farm's newsletter. 
 <img src="assets/images/capture6.jpg">
+
 ### Find Us
 
 #### This page shows the user all of the contact information of the farm and it's location.
@@ -48,11 +49,11 @@
 ## Bugs
 #### I found three errors in HTML
 
-##### 1. The address element wasn't allowed as a child of element <h3>.
+##### .The address element wasn't allowed as a child of element <h3>.
 
-##### 2. End tag <main> was seen, but there were open elements.
+##### .End tag <main> was seen, but there were open elements.
 
-##### 3. Unclosed element <section>.
+##### .Unclosed element <section>.
 <img src="assets/images/capture2.jpg">
 
 ## Validator Testing
