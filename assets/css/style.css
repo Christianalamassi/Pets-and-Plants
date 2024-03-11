@@ -173,6 +173,19 @@ h3 {
   align-items: center;
 }
 
+.img-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+}
+
+.img-container img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
 /*hover images*/
 img:hover {
   border-radius: 100px;
