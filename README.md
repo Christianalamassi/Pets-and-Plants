@@ -13,7 +13,7 @@
 
 ### The home page image
 
-- The home page image gives the user of the website a first impression about the advertised location and the overlying text offers a small description about it. 
+ The home page image gives the user of the website a first impression about the advertised location and the overlying text offers a small description about it. 
 <img src="assets/images/capture4.jpg">
 
 ### Information
@@ -29,17 +29,17 @@
 
 ### Sign Up for our newsletter
 
-- On this page the user can submit his or her information in order to subscribe to the farm's newsletter. 
+ On this page the user can submit his or her information in order to subscribe to the farm's newsletter. 
 <img src="assets/images/capture6.jpg">
 
 ### Find Us
 
-- This page shows the user all of the contact information of the farm and it's location.
+ This page shows the user all of the contact information of the farm and it's location.
 <img src="assets/images/findus.jpg">
 
 ### Footer
 
-- The footer provides links to the farm's social media pages. The links open to a new tab. 
+ The footer provides links to the farm's social media pages. The links open to a new tab. 
 <img src="assets/images/cpture7.jpg">
 
 ## Testing
@@ -85,7 +85,7 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 ## Credits
 
 ### contact
-the contact were used [W3](https://validator.w3.org/#validate_by_input) [css-validato](https://jigsaw.w3.org/css-validator/) [amiresponsive](https://ui.dev/amiresponsive)
+the contact were used [W3](https://validator.w3.org/#validate_by_input), [css-validato](https://jigsaw.w3.org/css-validator/), [amiresponsive](https://ui.dev/amiresponsive), [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
 
 ### Media
-- the images were taken from [Pixabay](https://pixabay.com/), [freeimages](https://www.freeimages.com/) [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
+- the images were taken from [Pixabay](https://pixabay.com/), [freeimages](https://www.freeimages.com/), [pexels](https://www.pexels.com/search/farm%20with%20kids/)
