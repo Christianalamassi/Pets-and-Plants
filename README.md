@@ -1,7 +1,7 @@
 # P&P Pets and Plants
 
  P&P is the website of a farm in the outskirts of Berlin, that keeps a variety of farm animals and plants for people to admire and that welcomes people in their coffee shop. The site is aimed at people interested in visiting the farm. Users can get an overview of what the location has to offer, how to contact it, and where to find it. Users can also subscribe to the farm's newsletter. 
-<img src="assets/images/capture.jpg">
+<img src="assets/images/pic1.jpg">
 
 ## Features
 
@@ -14,7 +14,7 @@
 ### The home page image
 
  The home page image gives the user of the website a first impression about the advertised location and the overlying text offers a small description about it. 
-<img src="assets/images/capture4.jpg">
+<img src="assets/images/pic2.jpg">
 
 ### Information
 
@@ -45,7 +45,8 @@
 ## Testing
 
 - I tested my project in two different browsers (Chrome and Edge) and the results were satisfying.
-<img src="assets/images/chanded.jpg">
+
+<img src="assets/images/broe.jpg"> <img src="assets/images/broc.jpg">
 
 - I also tested my project on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and was content with the results here as well.
 <img src="assets/images/size.screen.jpg">
