@@ -214,12 +214,12 @@ img:hover {
 #pet div {
   color: #ffffff;
   text-align: center;
-  padding: 30px 20px;
+  padding: 20px 20px;
 }
 
 #pet img {
   width: 300px;
-  height: 40vh;
+  height: 25vh;
 }
 
 /*our plants*/
@@ -235,7 +235,7 @@ img:hover {
 #plants div {
   color: #ffffff;
   text-align: center;
-  padding: 30px 20px;
+  padding: 20px 20px;
 }
 
 #plants img {
@@ -513,14 +513,16 @@ footer {
   }
 
   #pet {
-    display: block;
+    display: flex;
     text-align: center;
+
   }
 
   #plants {
-    display: block;
+    display: flex;
     text-align: center;
   }
+
 
   #coffee {
     display: block;
