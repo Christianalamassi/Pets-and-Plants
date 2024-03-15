@@ -108,6 +108,33 @@ nav a:hover {
   object-fit: contain;
   max-width: 100%;
   background-attachment: fixed;
+  position: relative;
+}
+
+#maintext {
+  background-color: rgba(204, 181, 29, 0.8);
+  position: absolute;
+  bottom: 30%;
+  width: 20vw;
+  height: 16vh;
+  padding: 5px 0px;
+
+}
+
+#main-text {
+  color: #000000;
+  font-size: 130%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  padding: 15px 10px;
+  position: absolute;
+  top: 1vh;
+  bottom: 1vh;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  line-height: 4vh;
 }
 
 /*the text inside the main photo*/
@@ -118,19 +145,7 @@ h2 span {
   font-style: italic;
 }
 
-#main-text {
-  background-color: rgba(204, 181, 29, 0.8);
-  color: #000000;
-  width: 25%;
-  height: 30%;
-  font-size: 130%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-left: 10px;
-  padding-top: 5px;
-  position: absolute;
-  top: 160px;
-  line-height: 8vh;
-}
+
 
 /*what the page content*/
 
@@ -278,7 +293,7 @@ img:hover {
   background: url(../images/vintage-door-4063638_640.jpg) no-repeat center center/cover;
   max-width: 100%;
   display: flex;
-  display: block;
+  display: blok;
   object-fit: contain;
 }
 
@@ -364,9 +379,8 @@ footer {
 
 /*media queries to medium screen size from 980px wide and down*/
 @media screen and (max-width:980px) {
-  #main-text {
-    height: 30%;
-    width: 35%;
+  #maintext {
+    width: 20vw;
   }
 
   #main-img {
@@ -377,9 +391,12 @@ footer {
 /*media queries to medium screen size from 900px wide and down*/
 
 @media screen and (max-width:900px) {
+  #maintext {
+    width: 25vw;
+  }
 
   #main-text {
-    height: 37%;
+    line-height: 2.5vh;
   }
 
   #opining li {
@@ -411,8 +428,9 @@ footer {
     padding-right: 15px;
   }
 
-  #main-text {
-    height: 40vh;
+  #maintext {
+    width: 32vw;
+    height: 32;
   }
 
   #main-img {
@@ -450,7 +468,7 @@ footer {
   }
 
   #logo span {
-    font-size: large;
+    font-size: x-small;
   }
 
   nav li {
@@ -480,16 +498,13 @@ footer {
     height: 500px;
     display: block;
     top: 5vh;
+    line-height: 5vh;
   }
 
-  #main-text {
-    width: 50%;
-    height: 40%;
-    font-size: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 0px;
-    padding-top: 0px;
-    top: 100px;
+
+  #maintext {
+    width: 43vw;
+    height: 18vh;
   }
 
   #opining {
@@ -558,14 +573,27 @@ footer {
     overflow-x: hidden;
   }
 
+  #maintext {
+    width: 60%;
+    height: 26vh;
+  }
+
   #main-text {
-    height: 40%;
-    width: 50%;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    line-height: 4vh;
   }
 
   #contact {
     font-size: medium;
     padding: 0px 10px;
     display: block;
+  }
+
+  #sign-up input {
+
+    font-weight: 200;
+    font-size: medium;
+    padding: 2px 0px;
   }
 }

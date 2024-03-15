@@ -49,7 +49,7 @@
 <img src="assets/images/broe.jpg"> <img src="assets/images/broc.jpg">
 
 - I also tested my project on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and was content with the results here as well.
-<img src="assets/images/size.screen.jpg">
+<img src="assets/images/size.jpg">
 
 - I confirmed the project is easy to use and the nav bar, the header, sign up and about us are easy to understand for the user. 
 
@@ -85,8 +85,12 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 
 ## Credits
 
-### contact
-the contact were used [W3](https://validator.w3.org/#validate_by_input), [css-validato](https://jigsaw.w3.org/css-validator/), [amiresponsive](https://ui.dev/amiresponsive), [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
+
+ ### Websits were useed
+  [W3](https://validator.w3.org/#validate_by_input), [css-validato](https://jigsaw.w3.org/css-validator/), [amiresponsive](https://ui.dev/amiresponsive),[Fontawesom](https://fontawesome.com/),[favicon](https://www.favicon.cc/)
+
+### inspiration
+ [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
 
 ### Media
 - the images were taken from [Pixabay](https://pixabay.com/), [freeimages](https://www.freeimages.com/), [pexels](https://www.pexels.com/search/farm%20with%20kids/)
