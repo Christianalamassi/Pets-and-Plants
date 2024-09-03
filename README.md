@@ -14,7 +14,7 @@
 ### The home page image
 
  The home page image gives the user of the website a first impression about the advertised location and the overlying text offers a small description about it. 
-<img src="assets/images/pic2.jpg">
+<img src="assets/images/screensh.png">
 
 ### Information
 

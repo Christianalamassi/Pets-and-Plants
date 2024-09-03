@@ -93,7 +93,6 @@ nav a:hover {
 /*the main image*/
 
 #main-head {
-  height: 600px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -101,44 +100,12 @@ nav a:hover {
 
 #main-img {
   width: 100%;
-  height: 600px;
+  height: 550px;
   background: url(../images/main.jpg) no-repeat center center/cover;
   display: block;
   object-fit: contain;
-  max-width: 100%;
   background-attachment: fixed;
   position: relative;
-}
-
-#maintext {
-  background-color: rgba(204, 181, 29, 0.7);
-  position: absolute;
-  bottom: 30%;
-  width: 20vw;
-  height: 16vh;
-  padding: 5px 0px;
-  font-size: 130%;
-  font-family: Oswald;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  width: 300px;
-  height: 200px;
-}
-
-#main-text {
-  color: #000000;
-  font-size: 130%;
-  width: 80%;
-  text-align: center;
-  font-weight: bolder;
-  padding: 15px 10px;
-  position: absolute;
-  top: 1vh;
-  bottom: 1vh;
-  display: flex;
-  align-items: center;
-  margin: 0px;
-  line-height: 4vh;
 }
 
 /*the text inside the main photo*/
@@ -370,14 +337,6 @@ footer {
 /*media queries to medium screen size from 900px wide and down*/
 
 @media screen and (max-width:900px) {
-  #maintext {
-    width: 25vw;
-  }
-
-  #main-text {
-    line-height: 2.5vh;
-  }
-
   #opining li {
     font-size: x-large;
     letter-spacing: 1px;
@@ -390,15 +349,7 @@ footer {
 /*media queries to medium screen size from 800px wide and down*/
 
 @media screen and (max-width:800px) {
-
-  #maintext {
-    width: 34vw;
-    height: 32;
-  }
-
   #main-img {
-    width: 100%;
-    height: 600px;
     display: block;
   }
 
@@ -481,15 +432,6 @@ footer {
     line-height: 5vh;
   }
 
-  #main-text {
-    width: 15%;
-  }
-
-  #maintext {
-    width: 50%;
-    height: 18vh;
-  }
-
   #opining {
     display: flex;
     justify-content: center;
@@ -560,15 +502,6 @@ footer {
   #plants img {
     width: 100%;
     overflow-x: hidden;
-  }
-
-  #maintext {
-    width: 60%;
-    height: 30%;
-  }
-
-  #main-text {
-    line-height: 30px;
   }
 
   #sign-up input {
