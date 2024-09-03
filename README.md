@@ -43,8 +43,6 @@
 
 - I tested my project in two different browsers (Chrome and Edge) and the results were satisfying.
 
-<img src="assets/images/broe.jpg"> <img src="assets/images/broc.jpg">
-
 - I also tested my project on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and was content with the results here as well.
 <img src="assets/images/size.jpg">
 
