@@ -1,4 +1,4 @@
-# P&P Pets and Plants
+# [P&P Pets and Plants](https://christianalamassi.github.io/Pets-and-Plants/)
 
  P&P is the website of a farm in the outskirts of Berlin, that keeps a variety of farm animals and plants for people to admire and that welcomes people in their coffee shop. The site is aimed at people interested in visiting the farm. Users can get an overview of what the location has to offer, how to contact it, and where to find it. Users can also subscribe to the farm's newsletter. 
 <img src="assets/images/pic1.jpg">
@@ -32,15 +32,12 @@
  On this page the user can submit his or her information in order to subscribe to the farm's newsletter. 
 <img src="assets/images/capture6.jpg">
 
-### Find Us
-
- This page shows the user all of the contact information of the farm and it's location.
-<img src="assets/images/findus.jpg">
-
 ### Footer
+  This page shows the user all of the contact information of the farm and it's location.
 
- The footer provides links to the farm's social media pages. The links open to a new tab. 
-<img src="assets/images/cpture7.jpg">
+  The footer provides links to the farm's social media pages. The links open to a new tab. 
+
+  <img src="assets/images/findus.png">
 
 ## Testing
 
@@ -81,7 +78,7 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 - From the source section drop-down menu, select the main
 - Once the main has been selected, the page will be automatically refreshed with a 
 - detailed ribbon display to indicate the successful deployment.
-- The live link is here [P&P Pets and Plants](https://christianalamassi.github.io/FirstProjectGitpod/)
+- The live link is here [P&P Pets and Plants](https://christianalamassi.github.io/Pets-and-Plants/)
 
 ## Credits
 
